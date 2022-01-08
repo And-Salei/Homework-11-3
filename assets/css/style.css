@@ -1,0 +1,30 @@
+.container {min-height: 100vh;}
+
+
+article {display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.a {background-image: url(../image/img-2.jpg);
+background-size: cover;
+}
+.b {background-image: url(../image/img-3.jpg);
+    background-size: cover;}
+.c {background-image: url(../image/img-4.jpg);
+    background-size: cover;}
+
+main {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;     
+}
+
+.aside1 {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    ;}
+
+.aside2 {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+
